@@ -462,16 +462,19 @@ span {
 
 }
 
-input[type=text], select, textarea{
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #260104 ;
+    border: 1px solid #260104;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
 }
+
 #verzenden {
     width: 200px;
     height: 60px;
@@ -492,25 +495,27 @@ input[type=text], select, textarea{
 }
 
 
-#vnaam{
-    color: #fff;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-}
-#anaam{
-    color: #fff;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-}
-#land{
+#vnaam {
     color: #fff;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-#onderwerp{
+#anaam {
     color: #fff;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-.container{
+#land {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#onderwerp {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.container {
     border-radius: 5px;
     background-color: #260104;
     padding: 10px;
@@ -541,7 +546,7 @@ input[type=text], select, textarea{
         flex-direction: column;
     }
 
-    #onderwerp{
+    #onderwerp {
         width: 100%;
     }
 
